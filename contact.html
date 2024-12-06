@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us - MediGuide</title>
+</head>
+<body>
+    <header class="header-content">
+        <div class="logo-container">
+            <img src="assets/logo.jpg" alt="MediGuide Logo" class="logo">
+        </div>
+        <h1 class="site-title">MediGuide</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="health-tips.html"><i class="fas fa-heart"></i> Health Tips</a></li>
+                <li><a href="contact.html" class="active"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <label for="name"><i class="fas fa-user"></i> Name:</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+        
+    </div>
+</body>
+</html>
